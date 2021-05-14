@@ -1,0 +1,63 @@
+*, *:before, *:after 
+    box-sizing: border-box
+
+html
+  font-size: 14px
+body
+  font-family: 'MyriadPro-Black', sans-serif
+  font-size: 1rem
+  background-color: #FFF
+.modal-open 
+  overflow: hidden
+
+img
+  max-width: 100%
+.container
+  width: 85%
+  max-width: 1350px
+  margin: auto
+  &__rolls
+    width: 70%
+  &__additional
+    width: 70%
+
+a
+  text-decoration: none
+
+.buy
+  width: 121px
+  height: 30px 
+  text-transform: uppercase
+  border-radius: 8px
+  cursor: pointer
+  background-color: $red
+  border: none
+  font-size: 1.2rem
+  color: $white
+  margin-top: 10px
+  &:hover
+    color: $red
+    background-color: $yellow
+    transition-property: all
+    transition-duration: 0.1s
+    transition-timing-function: ease
+    transition-delay: 0.1s
+
+button
+  outline: none
+.button
+  &__up
+    display: block
+    font-size: 30px
+    width: 50px
+    height: 50px
+    position: fixed
+    right: 30px
+    bottom: 50px
+    background: $beige url('/img/arrow.png') no-repeat center / 100%
+    border-radius: 50%
+    border: 3px solid $red
+    &:hover
+      cursor: pointer
+.social__post
+  padding-bottom: 2rem
