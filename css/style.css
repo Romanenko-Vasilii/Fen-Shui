@@ -318,6 +318,28 @@ template {
   font-style: normal;
   font-display: swap; }
 
+.additional__title {
+  color: #020501;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Stylo'; }
+
+.product__weight--special {
+  margin: 0.5rem 0 0 0; }
+
+.size_kind--special {
+  text-align: center;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-top: -1px; }
+
+.wrap__product--special {
+  height: 460px !important; }
+
+.size_kind {
+  margin-left: 0; }
+
 h1 {
   color: #fff;
   text-align: center;
