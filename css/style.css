@@ -340,6 +340,70 @@ template {
 .size_kind {
   margin-left: 0; }
 
+.stocks__title {
+  color: #020501;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Stylo'; }
+
+.stocks__post {
+  font-size: 1.5rem;
+  text-align: center; }
+
+.me__title {
+  color: #020501;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Stylo'; }
+
+.me__post {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: normal; }
+
+.me__banner {
+  text-align: center;
+  background-color: #E14120FF;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  width: 30%;
+  margin: 0 auto;
+  font-size: 1.7rem; }
+
+.me__wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.me__map {
+  margin-right: 2rem;
+  border: 5px solid #FFFBD7FF; }
+
+.adress {
+  margin-right: 1rem; }
+  .adress__title {
+    font-size: 1.8rem; }
+  .adress__post {
+    font-size: 1.5rem; }
+
+.phone__title {
+  font-size: 1.8rem; }
+
+.phone__post {
+  font-size: 1.5rem; }
+
+.social__title {
+  font-size: 1.8rem; }
+
+.social__post {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #FFFBD7FF;
+  padding: 1rem 0;
+  margin: 1rem; }
+
 h1 {
   color: #fff;
   text-align: center;
@@ -464,6 +528,17 @@ a.post:hover {
 
 .head__info {
   z-index: 10; }
+
+.delivery__title {
+  color: #020501;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Stylo'; }
+
+.delivery__post {
+  font-size: 1.5rem;
+  text-align: center; }
 
 .rolls {
   padding-bottom: 3rem;
