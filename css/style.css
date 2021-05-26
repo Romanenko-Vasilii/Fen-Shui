@@ -548,7 +548,9 @@ a.post:hover {
 
 .rolls {
   padding-bottom: 3rem;
-  position: relative; }
+  position: relative;
+  display: grid;
+  grid-template-columns: 90% 10%; }
   .rolls__title {
     color: #E14120FF;
     font-size: 2.5rem;
