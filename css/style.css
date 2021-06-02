@@ -802,8 +802,7 @@ button {
   background-color: rgba(2, 5, 1, 0.6);
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding-bottom: 2rem; }
+  align-items: center; }
   .modal__button {
     cursor: pointer;
     height: 3rem;
@@ -936,6 +935,9 @@ button {
   border: none;
   margin: 0.5rem;
   cursor: pointer; }
+
+.stop-scroll {
+  overflow: hidden; }
 
 .sanks__text {
   color: #020501;

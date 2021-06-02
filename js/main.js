@@ -14,21 +14,29 @@ $(document).ready(function(){
   var modal = $('.modal'),
       modalBtn = $('[data-toggle=modal]'),
       closeBtn = $('.modal__close')
+      body = $('.body')
 
   modalBtn.on('click', function () {
     modal.toggleClass('modal--visible');
+    body.toggleClass('stop-scroll'); //убирает скролл body
   });
   closeBtn.on('click', function () {
     modal.toggleClass('modal--visible');
+    body.toggleClass('stop-scroll'); //включает скролл body
   });
 
+   
   function press(event) {
     if(event.keyCode == '27') {
       modal.removeClass('modal--visible');
+      body.removeClass('stop-scroll'); //включает скролл body
     }
   }
-  
   window.addEventListener('keydown', press, false);
+ 
+  
+
+  
 //прокрутка якорю
   $('a[href^="#"]').click(function(){
       headHeight = $('.head').height();
@@ -49,7 +57,7 @@ $(document).ready(function(){
 			fixd.removeClass('fixd');
 		}
 	});
-
+ // фиксирую корзину при прокрутке
   var fixd__basket = $('.basket');
   $(window).scroll(function () {
 		if ($(this).scrollTop() > 400) {
