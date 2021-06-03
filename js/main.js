@@ -11,9 +11,9 @@ $(document).ready(function(){
  
   
 // включение-выключение окна с заказом
-  var modal = $('.modal'),
-      modalBtn = $('[data-toggle=modal]'),
-      closeBtn = $('.modal__close')
+  var modal = $('.modal');
+      modalBtn = $('[data-toggle=modal]');
+      closeBtn = $('.modal__close');
       body = $('.body')
 
   modalBtn.on('click', function () {
@@ -33,6 +33,14 @@ $(document).ready(function(){
     }
   }
   window.addEventListener('keydown', press, false);
+
+  // var input = $('.policy__checkbox');
+  //     btnOrder = $('.modal__button');
+
+  //     input.addEventListener('click', () => input.checked ? btnOrder.disabled = false : btnOrder.disabled = true)
+
+
+
  
   
 

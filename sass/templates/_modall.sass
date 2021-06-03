@@ -13,6 +13,9 @@
   display: flex
   justify-content: center
   align-items: center
+  &__policy
+    margin-bottom: 2rem
+    font-size: 1.25rem
   
   &__button
     cursor: pointer
@@ -88,8 +91,7 @@
     width: 110px
     display: flex
     justify-content: center
-      
-    
+  
 .add
   display: inline
   width: 3rem
@@ -144,6 +146,30 @@
   cursor: pointer
 .stop-scroll
   overflow: hidden
+.policy
+  &__checkbox
+    opacity: 0
+    visibility: hidden
+    &:checked +
+      .policy__label
+        &::before
+          background: $red url(../img/check.svg) no-repeat center/0.8rem
+      
+  &__label
+    display: flex
+    cursor: default
+    pointer-events: none
+    &::before
+      content: ''
+      width: 18px
+      height: 18px
+      border: 1px solid $red
+      border-radius: 1px
+      cursor: pointer
+      margin-right: 0.64rem
+
+
+
   
  
 

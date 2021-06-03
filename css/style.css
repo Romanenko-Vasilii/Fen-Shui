@@ -803,6 +803,9 @@ button {
   display: flex;
   justify-content: center;
   align-items: center; }
+  .modal__policy {
+    margin-bottom: 2rem;
+    font-size: 1.25rem; }
   .modal__button {
     cursor: pointer;
     height: 3rem;
@@ -938,6 +941,25 @@ button {
 
 .stop-scroll {
   overflow: hidden; }
+
+.policy__checkbox {
+  opacity: 0;
+  visibility: hidden; }
+  .policy__checkbox:checked + .policy__label::before {
+    background: #E14120FF url(../img/check.svg) no-repeat center/0.8rem; }
+
+.policy__label {
+  display: flex;
+  cursor: default;
+  pointer-events: none; }
+  .policy__label::before {
+    content: '';
+    width: 18px;
+    height: 18px;
+    border: 1px solid #E14120FF;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-right: 0.64rem; }
 
 .sanks__text {
   color: #020501;
